@@ -1,0 +1,7 @@
+*.csv
+data/
+logs/
+clickhouse_data/
+.env
+!.env.example
+__pycache__
