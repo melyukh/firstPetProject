@@ -13,8 +13,9 @@
 2. Скопировать `.env.example` в `.env` и заполнить
 3. Создать папки:
 
-   mkdir -p dags logs data clickhouse_data config
-4. docker compose up -d
+  `mkdir -p dags logs data clickhouse_data config`
+4. ОБЯЗАТЕЛЬНО, в wsl выполнить `sudo chown -R 101:101 clickhouse_data/`
+5. docker compose up -d
 
 ## Структура
 - dags/         — Airflow DAG-и

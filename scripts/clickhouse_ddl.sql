@@ -2,7 +2,7 @@
 CREATE TABLE airflow.russian_houses
 (
     house_id Int32,
-    latituse Nullable(Float32),
+    latitude Nullable(Float32),
     longitude Nullable(Float32),
     maintenance_year Nullable(Int32),
     square Nullable(Float32),
